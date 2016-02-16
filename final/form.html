@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MrBrooksMixing Post</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleeapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+	<div class="container-fluid" id="wrapper">
+	  <nav class="navbar navbar-default">
+	    <div class="container">
+	      <!-- Brand and toggle get grouped for better mobile display -->
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+MrBrooksMixing Post<br>
+	      </div>
+	      <!-- Collect the nav links, forms, and other content for toggling -->
+	      <div class="collapse navbar-collapse" id="defaultNavbar1">
+<ul class="nav navbar-nav navbar-right">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="https://www.discogs.com/artist/2913770-Cullen-Brooks">Discogs</a></li>
+  <li><a href="http://www.allmusic.com/artist/cullen-brooks-mn0002989937">All Music</a></li>
+  <li><a href="https://www.linkedin.com/in/cullenbrooks" target="_blank">Linkedin</a></li>
+</ul>
+          </div>
+	      <!-- /.navbar-collapse -->
+        </div>
+        </nav>
+    
+        
+ <!-- /.Form -->
+ 
+ <form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Business/personal Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+
+<fieldset>
+<legend>Which type of Service</legend>
+<p><label> <input type="radio" name="taxi" required value="car"> Sound Design </label></p>
+<p><label> <input type="radio" name="taxi" required value="van"> Sound Editing </label></p>
+<p><label> <input type="radio" name="taxi" required value="tuktuk"> Foley/ADR </label></p>
+<p><label> <input type="radio" name="taxi" required value="tuktuk"> Re-Record Mixer </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Extras</legend>
+<p><label> <input type="checkbox" name="extras" value="baby"> CGI </label></p>
+<p><label> <input type="checkbox" name="extras" value="wheelchair"> Coloring </label></p>
+<p><label> <input type="checkbox" name="extras" value="tip"> Text </label></p>
+</fieldset>
+
+<p>
+<label>Film Deliverables Date/Time
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+	
+<p>
+<label>Film Deliverables location 
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="office" >MrBrooksMixing Front Office</option>
+<option value="town_hall" >Your Production Location</option>
+<option value="telepathy" >Non-U.S. Location</option>
+</select>
+</label> 
+</p>
+
+<p>
+<label>Film Deliverables Addreess
+<input type="text" name="dropoff_place" required list="destinations">
+</label>
+
+<datalist id="destinations">
+<option value="Airport">
+<option value="Beach">
+<option value="Fred Flinstone's House">
+</datalist>
+</p>
+
+<p>
+<label>Special Instructions for Film Deliverables
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><a href="mailto:cbrook17@baker.edu">Submit Booking</a></p>
+
+</form>       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- /.Footer -->
+ <footer>&copy;Copywrite 2016 MrBrooksMixing Post</footer>
+    </div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+  <script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
